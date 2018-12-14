@@ -52,7 +52,7 @@ function generateRandomNumber(max, bonus){
         returnValue = 1;
     }
      returnValue = parseInt(returnValue)+ parseInt(bonus);
-    console.log("Random number: " + returnValue);
+ 
     return returnValue;
 }
 
@@ -60,6 +60,13 @@ function generateRandomNumber(max, bonus){
 function initGame(){
 //each button gets a different int value generated for it
 console.log("Initializing...");
+paladinButton.roundDamage = 0;
+barbarianButton.roundDamage = 0;
+rogueButton.roundDamage = 0;
+wizButton.roundDamage = 0;
+
+
+
 paladinButton.roundDamage = generateRandomNumber(paladinButton.damageMax, paladinButton.damageBonus);
 barbarianButton.roundDamage = generateRandomNumber(barbarianButton.damageMax, barbarianButton.damageBonus);
 rogueButton.roundDamage = generateRandomNumber(rogueButton.damageMax, rogueButton.damageBonus);
