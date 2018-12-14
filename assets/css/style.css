@@ -1,0 +1,43 @@
+#bootstrapOverrideBG{
+background-image: url("../images/parchment.jpg");
+background-color: bisque;
+font-family: 'PT Serif', serif;
+}
+
+.jumbotron{
+    background:transparent !important;
+    color: maroon;
+}
+
+.container{
+    background: bisque !important;
+    padding: 10px !important;
+}
+
+#trollHealth{
+    background: goldenrod !important;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#winsDisplay{
+    background:  gainsboro;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#lossDisplay{
+    background: gainsboro;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#damageDisplay{
+    background: goldenrod !important;
+    font-size: 15px;
+    font-weight: bold
+
+}
+
+
+

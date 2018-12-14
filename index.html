@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css" type="reset/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+        
+    </head>
+    <body id="bootstrapOverrideBG">
+
+    <div class="page-header">
+      
+        <div class="jumbotron">
+        
+             <h1>TROLL FIGHT</h1>
+        
+        </div>
+    
+    </div>
+    
+    <div class="container">
+          
+        <p class="trollText"> Oh no! Your party has come across a MONSTROUS TROLL in the woods! If you don’t slay him, you won’t be able to pass through.</p>
+
+           <p class="trollText">You know, as does every adventurer, that trolls have CORROSIVE BLOOD, and therefore, if you damage him past the point of death, your entire party will face CERTAIN DEATH.</p>
+            
+           <p class="trollText">Each party member does a different amount of damage. Choose which fighter to attack with, and see if you can defeat this threat!</p>
+            
+           <p class="trollText">You will not know the amount of damage each party member deals until you click them. This value will change every time you play the game, so player beware.</p>
+            
+    </div>
+
+<div class="container">
+<div class="row">
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+   <p id="trollHealth"></p>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <p id="winsDisplay">wins</p>
+        <p id="lossDisplay">loss</p>
+  </div>
+</div>
+</div>
+
+    <div class="container">
+            <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default" id="barbarianBtn"><img src="assets/images/barbarian.png" width="200px"></img></button>
+                    <button type="button" class="btn btn-default" id="rogueBtn"><img src="assets/images/rogue.png" width="200px"></img></button>
+                    <button type="button" class="btn btn-default" id="paladinBtn"><img src="assets/images/paladin.png" width="200px"></img></button>
+                    <button type="button" class="btn btn-default" id="wizardBtn"><img src="assets/images/wizard.png" width="200px"></img></button>
+                  </div>
+    </div>
+
+    <div class="container">
+        <div class row>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <p id="damageDisplay"> Your damage output is:</p>
+            </div>
+        </div>
+        <div class row>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <p id="damageDisplay"></p>
+          
+        </div>
+    </div>
+    </body>
+</html>
